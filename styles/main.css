@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:300,400,700&subset=cyrillic");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+    background: red;
+    width: 610px;
+    height: 310px;
+    position: relative;
+    border: 5px solid green;
+    box-sizing: border-box;
+}
+
+.avatar-wrap {
+    width: 600px;
+    height: 300px;
+
+}
+
+.hexagon {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    visibility: hidden;
+    transform: rotate(120deg);
+}
+.hex-in1 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transform: rotate(-60deg);
+}
+.hex-in2 {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-image: url("../images/polygon_base.png");
+    background-size: 58%;
+    visibility: visible;
+    transform: rotate(-60deg);
+}
+
+
+
+.av1 {
+    background-image: url("../images/VanyaKiller.png");
+}
+
+.av2 {
+    background-image: url("../images/av2.png");
+}
+
+.av5 {
+    background-image: url("../images/Polygon_2.png");
+}
+
+.av-base {
+    background-image: url("../images/polygon_base.png");;
+}
+
+
+.link {
+    height: 300px;
+    width: 500px;
+    background: yellow;
+}
+.link-block {
+            display: block;
+            height: 100%;
+            width: 100%;
+
+        }
+
+
+            a:hover {
+                // border: 3px solid #FFD128;
+                background: #FFD128;
+            }
